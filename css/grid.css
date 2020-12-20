@@ -1,0 +1,348 @@
+.grid::after {
+	content:"";
+	display: block;
+	clear: both;
+}
+
+section::after {
+	content:"";
+	display: block;
+	clear: both;
+}
+
+[class*='col-'] {
+	float: left;
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-top: 0;
+}
+
+/*used if you ever want a grid with no padding in the columns*/
+.grid.wo-padding [class*='col-'] {
+	padding: 0;
+}
+
+.wo-padding, .wo-padding-first {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.wo-padding-first {
+	margin-top: -1em;
+}
+
+/*used if you ever want a grid with slightly less padding*/
+.grid.less-padding [class*='col-'] {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.col-2of12 {
+	width: 16.66%;
+}
+
+.col-3of12 {
+	width: 25%;
+}
+
+.col-4of12 {
+	width: 33.33%;
+}
+
+.col-5of12 {
+	width: 41.66%;
+}
+
+.col-6of12 {
+	width: 50%;
+}
+
+.col-7of12 {
+	width: 58.33%;
+}
+
+.col-8of12 {
+	width: 66.66%;
+}
+
+.col-9of12 {
+	width: 75%;
+}
+
+.col-12of12 {
+	width: 100%;
+}
+
+/*
+---
+MIN-WIDTH MEDIA QUERIES
+---
+*/
+@media (min-width: 864px) {
+	#hero-banner, #getintouch {
+		background-attachment: fixed;
+	}
+	.container-centered-process {
+	    width: 90%;
+	    max-width: 72em;
+	    margin: 0 auto;
+	}
+}
+
+/*
+---
+MAX-WIDTH MEDIA QUERIES
+---
+*/
+@media (max-width: 1376px) {
+
+	/*
+	  CONTACT
+	*/
+
+	.exp-info, .contact-info {
+		padding-top: 0;
+		padding-left: 0;
+	}
+
+	/*
+	  FOOTER
+	*/
+
+	footer p {
+		margin-top: -0.8em;
+	}
+
+	footer .container-footer-link {
+		margin-top: 2.6em;
+	}
+
+	footer .container-footer-copyright {
+		margin-top: 3.1em;
+	}
+}
+
+@media (max-width: 864px) {
+	.col-3of12 {
+		width: 50%;
+	}
+
+	.col-4of12, .col-5of12, .col-6of12, 
+	.col-7of12, .col-8of12 {
+		width: 100%;
+	}
+
+	.hero-banner-text {
+		margin-top: 4.5em;
+		margin-bottom: 6em;
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+
+	.hero-banner-about {
+	  	height: 16em;
+	}
+
+	a.button-default,
+	a.button-default-header,
+	a.button-default-full-width,
+	a.button-default-full-width-header {
+		margin-bottom: 1.6em;
+	}
+
+	.feature-item {
+		padding-top: 1.5em;
+	}
+
+	.appvideo video {
+	  	margin-top: 0.6em;
+	}
+
+	/*
+	  ABOUT
+	*/
+
+	#about {
+		width: 100%;
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+
+	.about-bio {
+		width: 100%;
+	}
+
+	.about-image img {
+		width: 100%;
+		margin-top: 2em;
+	}
+
+	/*
+	  PORTFOLIO
+	*/
+
+	#portfolio, #contact {
+		width: 100%;
+	}
+
+	#contact {
+		margin-top: 5em;
+	}
+
+	.thumbnail-project, .thumbnail-project2,
+	.thumbnail-project3, .thumbnail-project4 {
+		height: 21em;
+	}
+
+	.thumbnail-project2, .thumbnail-project3,
+	.thumbnail-project4 {
+		margin-top: 1.6em;
+		padding-left: 2em;
+		padding-right: 2em;
+		padding-bottom: 3em;
+	}
+
+	/*
+	  FOOTER
+	*/
+
+	footer h3 {
+		font-size: 0.95em;
+	}
+
+	footer p {
+		font-size: 0.95em;
+		margin-top: -0.6em;
+	}
+
+	footer .footer-container {
+		width: 100%;
+		text-align: center;
+	}
+
+	footer .container-footer-link a {
+		margin-left: 0.5em;
+		margin-right: 0.5em;
+	}
+
+	/*===========================================================
+		REMOVE SIDE PADDING FROM COLS SINCE THEY ARE STACKED
+	===========================================================*/
+
+	.col-title,
+	.col-sidebar,
+	.col-main,
+	.grid-process {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	/*========================
+		PROJECT PAGE GRID
+	========================*/
+
+	.grid-project-page .col-title h1 {
+		font-size: 1.8em;
+		letter-spacing: 0.01em;
+	}
+
+	.grid-project-page .col-sidebar {
+		width: 100%;
+		border-bottom: 1px solid #ccc;
+		margin-bottom: 2em;
+		padding-bottom: 2em;
+	}
+
+	.grid-project-page .col-title {
+		width: 100%;
+		margin-top: 0.5em;
+	}
+
+	.grid-project-page .col-main {
+		width: 100%;
+	}
+
+	.grid-project-page .col-sidebar article {
+		float: left;
+		width: 50%;
+	}
+}
+
+@media (max-width: 576px) {
+	.hero-banner-text {
+		margin-top: 3em;
+		margin-bottom: 3.5em;
+	}
+
+	.hero-banner-text h1 {
+		letter-spacing: 0.04em;
+		line-height: 1.05;
+	}
+
+	.hero-banner-text h2 {
+		line-height: 1.6;
+	}
+
+	.hero-banner-about {
+	  	height: 10em;
+	}
+
+	/*
+	  ABOUT
+	*/
+	#about {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+	.about-image img {
+		margin-top: 6em;
+	}
+
+	.about-text {
+		padding-left: 0.3em;
+		padding-right: 0.3em;
+	}
+
+	.about-text h3 {
+		font-size: 2.1em;
+	}
+
+	.about-text p {
+		font-size: 1.05em;
+		line-height: 1.8;
+	}
+
+	.thumbnail-description {
+		padding-left: 1.2em;
+		padding-right: 1.2em;
+		padding-bottom: 0.1em;
+	}
+
+	.thumbnail-description h3 {
+		letter-spacing: 0.03em;
+	}
+
+	.thumbnail-description p {
+		line-height: 1.5;
+	}
+
+	.thumbnail-project, .thumbnail-project2,
+	.thumbnail-project3, .thumbnail-project4 {
+		height: 14em;
+	}
+
+	.thumbnail-project2, .thumbnail-project3,
+	.thumbnail-project4 {
+		margin-top: 1.3em;
+	}
+
+	/*========================
+		PROJECT PAGE GRID
+	========================*/
+
+	.grid-project-page .col-sidebar article {
+		width: 100%;
+		margin-bottom: 0;
+	}
+}

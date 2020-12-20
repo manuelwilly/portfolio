@@ -1,0 +1,46 @@
+@font-face {
+	font-family: 'EuclidFlex Bold';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/EuclidFlex-Bold.woff') format('woff');
+}
+
+
+@font-face {
+	font-family: 'EuclidFlex Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/EuclidFlex-Regular.woff') format('woff');
+}
+
+
+@font-face {
+	font-family: 'EuclidFlex Medium';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/EuclidFlex-Medium.woff') format('woff');
+}
+
+
+@font-face {
+	font-family: 'EuclidFlex Light';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/EuclidFlex-Light.woff') format('woff');
+}
+
+
+@font-face {
+	font-family: 'Karla Bold';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/Karla-Bold.woff') format('woff');
+}
+
+
+@font-face {
+	font-family: 'Karla Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/Karla-Regular.woff') format('woff');
+}
