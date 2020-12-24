@@ -532,7 +532,12 @@ a.button-back-to-top:focus img {
 }
 
 .about-experience {
-  margin-bottom: 2.2em;
+  margin-bottom: 2.4em;
+}
+
+.about-experience img {
+  width: 8em;
+  margin-bottom: 1.6em;
 }
 
 .about-text p.about-paragraph,
