@@ -552,7 +552,7 @@ a.button-back-to-top:focus img {
 #portfolio {
   height: auto;
   width: 90%;
-  max-width: 1440px;
+  max-width: 1280px;
   margin-top: 3em;
   margin-left: auto;
   margin-right: auto;
@@ -560,72 +560,17 @@ a.button-back-to-top:focus img {
 }
 
 .thumbnail-container {
-  box-shadow: 0 6px 6px 0 rgba(0,0,0,0.12), 0 10px 20px 0 rgba(0,0,0,0.1);
   margin-top: 2em;
+  display: block;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
 
-.thumbnail-description {
-  background: #fff;
+.thumbnail-container img {
+  width: 100%;
   height: auto;
-  position: relative;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding-left: 2em;
-  padding-right: 2em;
-  padding-bottom: 0.5em;
-}
-
-.thumbnail-description h3 {
-  color: #333;
-  font-size: 1.6em;
-  font-style: normal;
-  letter-spacing: 0.03em;
-}
-
-.thumbnail-description p {
-  color: #333;
-  margin-top: -0.8em;
-}
-
-.thumbnail-project, .thumbnail-project2,
-.thumbnail-project3, .thumbnail-project4,
-.thumbnail-project5 {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative;
-  width: 100%;
-  height: 24em;
   z-index: 1;
-}
-
-.thumbnail-project {
-  display: block;
-  background-image: url("../img/thumbnail-zaui.png");
-}
-
-.thumbnail-project2 {
-  display: block;
-  background-image: url("../img/thumbnail-buzzit.png");
-}
-
-.thumbnail-project3 {
-  display: block;
-  background-image: url("../img/thumbnail-nimbus.png");
-}
-
-.thumbnail-project4 {
-  display: block;
-  background-image: url("../img/thumbnail-genomeme.png");
-}
-
-.thumbnail-project5 {
-  display: block;
-  background-image: url("../img/thumbnail-misc.png");
 }
 
 /*scale project image when hover on project thumbnail*/
@@ -633,17 +578,6 @@ a.button-back-to-top:focus img {
   -webkit-transform: scale(0.99);
   -moz-transform: scale(0.99);
   transform: scale(0.99);
-}
-
-/*change color of text when hover on project thumbnail*/
-.thumbnail-project:hover h3, .thumbnail-project2:hover h3,
-.thumbnail-project3:hover h3, .thumbnail-project4:hover h3 {
-  color: #b3b3b3;
-}
-
-.thumbnail-project:hover p, .thumbnail-project2:hover p,
-.thumbnail-project3:hover p, .thumbnail-project4:hover p {
-  color: #b3b3b3;
 }
 
 /*===========================

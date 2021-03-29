@@ -189,19 +189,6 @@ MAX-WIDTH MEDIA QUERIES
 		margin-top: 5em;
 	}
 
-	.thumbnail-project, .thumbnail-project2,
-	.thumbnail-project3, .thumbnail-project4 {
-		height: 21em;
-	}
-
-	.thumbnail-project2, .thumbnail-project3,
-	.thumbnail-project4 {
-		margin-top: 1.6em;
-		padding-left: 2em;
-		padding-right: 2em;
-		padding-bottom: 3em;
-	}
-
 	/*
 	  FOOTER
 	*/
@@ -325,16 +312,6 @@ MAX-WIDTH MEDIA QUERIES
 
 	.thumbnail-description p {
 		line-height: 1.5;
-	}
-
-	.thumbnail-project, .thumbnail-project2,
-	.thumbnail-project3, .thumbnail-project4 {
-		height: 14em;
-	}
-
-	.thumbnail-project2, .thumbnail-project3,
-	.thumbnail-project4 {
-		margin-top: 1.3em;
 	}
 
 	/*========================
