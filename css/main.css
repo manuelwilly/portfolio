@@ -916,7 +916,7 @@ footer .container-footer-copyright {
 @media (max-width: 684px) {
   .menu-icon {
     display: block;
-    margin-right: 2em;
+    margin-right: 1.5em;
     margin-left: 2em;
   }
 
@@ -928,7 +928,7 @@ footer .container-footer-copyright {
   nav img.logo {
     float: left;
     margin-top: 0;
-    margin-left: 2em;
+    margin-left: 1.5em;
     height: 2.4em;
     width: auto;
     -webkit-filter: invert(100%);
