@@ -276,11 +276,6 @@ MAX-WIDTH MEDIA QUERIES
 	  line-height: 1.4;
 	}
 
-	.hero-banner-text h2 {
-		line-height: 1.6;
-		margin-top: 0.7em;
-	}
-
 	.hero-banner-about {
 	  height: 10em;
 	}
