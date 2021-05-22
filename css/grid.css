@@ -78,14 +78,22 @@ section::after {
 MIN-WIDTH MEDIA QUERIES
 ---
 */
+
+@media (min-width: 684px) {
+	nav {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+}
+
 @media (min-width: 864px) {
 	#hero-banner, #getintouch {
 		background-attachment: fixed;
 	}
-	.container-centered-process {
-	    width: 90%;
-	    max-width: 72em;
-	    margin: 0 auto;
+
+	.grid-project-page .col-sidebar {
+	  float: right;
+	  padding-left: 1em;
 	}
 }
 
@@ -135,8 +143,8 @@ MAX-WIDTH MEDIA QUERIES
 	.hero-banner-text {
 		margin-top: 4.5em;
 		margin-bottom: 6em;
-		padding-left: 2em;
-		padding-right: 2em;
+		padding-left: 1em;
+		padding-right: 1em;
 	}
 
 	.hero-banner-about {
@@ -155,7 +163,7 @@ MAX-WIDTH MEDIA QUERIES
 	}
 
 	.appvideo video {
-	  	margin-top: 0.6em;
+	  margin-top: 0.6em;
 	}
 
 	/*
@@ -238,6 +246,7 @@ MAX-WIDTH MEDIA QUERIES
 		border-bottom: 1px solid #ccc;
 		margin-bottom: 2em;
 		padding-bottom: 2em;
+		padding-right: 1px;
 	}
 
 	.grid-project-page .col-title {
@@ -261,13 +270,9 @@ MAX-WIDTH MEDIA QUERIES
 		margin-bottom: 3.5em;
 	}
 
-	.hero-banner-text h1 {
-		letter-spacing: 0.04em;
-		line-height: 1.05;
-	}
-
 	.hero-banner-text h2 {
-		line-height: 1.6;
+		line-height: 1.65;
+		margin-top: 1em;
 	}
 
 	.hero-banner-about {

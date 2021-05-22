@@ -61,7 +61,6 @@ li {
   font-size: 1.1em;
   font-family: 'EuclidFlex Regular', sans-serif;
   line-height: 1.6;
-  padding-top: 0.2em; 
   padding-bottom: 0.2em;
   color: #333;
 }
@@ -73,8 +72,8 @@ li {
 nav {
   height: 6em;
   padding-top: 2em;
-  padding-left: 2em;
-  padding-right: 3em;
+  max-width: 1280px;
+  margin: 0 auto;
   z-index: 30;
   position: relative;
   background-color: transparent;
@@ -98,7 +97,7 @@ nav a {
   font-size: 0.8em;
   letter-spacing: 0.25em;
   padding-bottom: 0.2em;
-  margin-left: 3.75em;
+  margin-left: 3.2em;
   text-transform: uppercase;
   -webkit-transition: all 0.1s;
   transition: all 0.1s;
@@ -381,27 +380,28 @@ select option {
 .hero-banner-text {
   margin: auto;
   text-align: left;
-  margin-top: 6.5em;
-  margin-bottom: 8.5em;
-  max-width: 864px;
+  margin-top: 4em;
+  margin-bottom: 6em;
+  padding-left: 1em;
+  padding-right: 6em;
+  max-width: 1280px;
 }
 
 .hero-banner-text h1 {
   font-family: 'EuclidFlex Medium', sans-serif;
-  font-size: 3.4em;
-  font-weight: 600;
+  font-size: 2.6em;
   letter-spacing: 0.08em;
+  line-height: 1.5;
   display: inline;
 }
 
 .hero-banner-text h2 {
-  font-family: 'EuclidFlex Regular', sans-serif;
-  font-size: 1.5em;
-  font-weight: 400;
-  letter-spacing: 0.05em;
-  display: block;
-  margin-top: 0.65em;
+  font-family: 'EuclidFlex Light', sans-serif;
+  font-size: 1.4em;
+  letter-spacing: 0.08em;
   line-height: 1.7;
+  display: block;
+  margin-top: 1.4em;
   border-bottom: none;
 }
 
@@ -551,7 +551,6 @@ a.button-back-to-top:focus img {
 
 #portfolio {
   height: auto;
-  width: 90%;
   max-width: 1280px;
   margin-top: 3em;
   margin-left: auto;
@@ -594,7 +593,7 @@ a.button-back-to-top:focus img {
   text-align: center;
   width: 100%;
   height: auto;
-  margin-top: 6em;
+  margin-top: 5em;
   margin-bottom: -6em;
   padding-top: 4em;
   padding-bottom: 7.2em;
@@ -621,18 +620,12 @@ a.button-back-to-top:focus img {
         CONTAINERS
 ========================*/
 
-.container-centered {
-  width: 90%;
-  max-width: 72em;
-  margin: 0 auto;
-}
-
+.container-centered,
 .container-centered-process {
-  width: 100%;
-  max-width: 72em;
+  max-width: 1280px;
+  margin: 0 auto;
   padding-left: 1em;
   padding-right: 1em;
-  margin: 0 auto;
 }
 
 .container-centered-button {
@@ -751,6 +744,7 @@ a.back-to-previous {
 .grid-project-page .col-title {
   width: 100%;
   margin-top: 1.5em;
+  padding-left: 0;
 }
 
 .grid-project-page .col-title h1 {
@@ -759,9 +753,9 @@ a.back-to-previous {
   color: #333;
 }
 
-.grid-project-page .col-sidebar,
 .grid-project-page .col-main {
   float: right;
+  padding-left: 0;
 }
 
 /*project sidebar*/
@@ -893,7 +887,7 @@ footer p {
 
 footer .footer-container {
   height: auto;
-  width: 80%;
+  max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
