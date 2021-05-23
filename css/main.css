@@ -95,7 +95,7 @@ nav a {
   font-family: 'EuclidFlex Regular', sans-serif;
   font-weight: 400;
   font-size: 0.8em;
-  letter-spacing: 0.25em;
+  letter-spacing: 0.2em;
   padding-bottom: 0.2em;
   margin-left: 3.2em;
   text-transform: uppercase;
@@ -134,7 +134,7 @@ nav .logo-link:hover {
   text-transform: uppercase;
   border: 1px solid #333;
   padding: 0.5em;
-  font-size: .7em;
+  font-size: 0.7em;
   cursor: pointer;
   display: none;
 }
@@ -157,7 +157,7 @@ nav img.logo {
 nav img.logo:hover,
 nav img.logo:active,
 nav img.logo:focus {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 /*hidden/not-hidden classes*/
@@ -187,7 +187,7 @@ a.button-default-full-width-header {
   font-family: 'EuclidFlex Medium', sans-serif;
   padding: 0.8em 1em;
   margin-top: 1.6em;
-  font-size: .8em;
+  font-size: 0.8em;
   font-weight: 600;
   text-align: center;
   -webkit-transition: all 0.3s;
@@ -388,7 +388,7 @@ select option {
 }
 
 .hero-banner-text h1 {
-  font-family: 'EuclidFlex Medium', sans-serif;
+  font-family: 'EuclidFlex Regular', sans-serif;
   font-size: 2.6em;
   letter-spacing: 0.08em;
   line-height: 1.5;
@@ -460,13 +460,13 @@ a.button-back-to-top p {
 a.button-scroll-down:hover,
 a.button-scroll-down:active,
 a.button-scroll-down:focus {
-  top: .3em;
+  top: 0.3em;
 }
 
 a.button-back-to-top:hover,
 a.button-back-to-top:active,
 a.button-back-to-top:focus {
-  top: -.3em;
+  top: -0.3em;
 }
 
 a.button-scroll-down:hover img,
@@ -475,7 +475,7 @@ a.button-scroll-down:focus img,
 a.button-back-to-top:hover img,
 a.button-back-to-top:active img,
 a.button-back-to-top:focus img {
-  opacity: .7;
+  opacity: 0.7;
 }
 
 /*
@@ -767,7 +767,7 @@ a.back-to-previous {
   text-transform: uppercase;
   font-style: normal;
   font-size: 1em;
-  margin-bottom: .4em;
+  margin-bottom: 0.4em;
   padding-bottom: 0;
 }
 
@@ -898,7 +898,7 @@ footer .container-footer-link {
 }
 
 footer .container-footer-link a {
-  font-size: .8em;
+  font-size: 0.8em;
   font-weight: 600;
   letter-spacing: 0.125em;
   margin-right: 1.25em;
@@ -942,7 +942,6 @@ footer .container-footer-copyright {
     height: 4em;
     padding-left: 0;
     padding-right: 0;
-    border-bottom: 1px solid #ccc;
   }
 
   nav ul {
@@ -950,6 +949,7 @@ footer .container-footer-copyright {
     clear: both;
     float: none;
     background: #fff;
+    margin-top: 3em;
   }
 
   nav ul li { 
