@@ -130,9 +130,9 @@ nav .logo-link:hover {
 /*the hamburger menu button*/
 .menu-icon {
   float: right;
-  color: #333;
+  color: #fff;
   text-transform: uppercase;
-  border: 1px solid #333;
+  border: 1px solid #fff;
   padding: 0.5em;
   font-size: 0.7em;
   cursor: pointer;
@@ -143,7 +143,7 @@ nav .logo-link:hover {
 .menu-icon:active,
 .menu-icon:focus {
   color: #fff;
-  border: 1px solid #0399bc;
+  border: 1px solid #fff;
 }
 
 /*the logo in the nav bar*/
@@ -931,49 +931,34 @@ footer .container-footer-copyright {
     margin-left: 1.5em;
     height: 2.4em;
     width: auto;
-    -webkit-filter: invert(100%);
-    -moz-filter: invert(100%);
-    filter: invert(100%);
   }
 
   nav {
-    background: #fff;
-    padding-top: 1em;
     height: 4em;
+    padding-top: 1em;
     padding-left: 0;
     padding-right: 0;
   }
 
   nav ul {
     display: none;
-    clear: both;
-    float: none;
-    background: #fff;
-    margin-top: 3em;
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 2em;
   }
 
   nav ul li { 
     display: block;
-    float: none;
-    clear: both;
+    width: 100%;
     margin: 0;
     padding: 0;
   }
 
   nav ul li a {
     margin: 0;
-    padding: 1.5em;
+    padding: 1em;
     width: 100%;
     display: inline-block;
-    color: #333;
-  }
-
-  nav a:hover,
-  nav a:active,
-  nav a:focus {
-    border-bottom: none;
-    background: #0399bc;
-    color: #fff;
   }
 
   nav a.logo-link:hover,
