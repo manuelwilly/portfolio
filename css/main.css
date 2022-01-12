@@ -961,6 +961,9 @@ footer .container-footer-copyright {
     display: inline-block;
   }
 
+  nav a:hover,
+  nav a:active,
+  nav a:focus,
   nav a.logo-link:hover,
   nav a.logo-link:active,
   nav a.logo-link:focus {
