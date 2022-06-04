@@ -719,6 +719,7 @@ video {
 span.tags {
   font-family: 'Nexa Book', sans-serif;
   font-size: 1.4em;
+  line-height: 1.4;
   color: #666;
   display: block;
   margin-top: -0.3em;
