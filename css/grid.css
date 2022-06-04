@@ -272,7 +272,7 @@ MAX-WIDTH MEDIA QUERIES
 
 	.hero-banner-text h1 {
 	  font-size: 2.1em;
-	  letter-spacing: 0.02em;
+	  letter-spacing: 0.01em;
 	  line-height: 1.45;
 	}
 
@@ -298,7 +298,7 @@ MAX-WIDTH MEDIA QUERIES
 	}
 
 	.about-text h3 {
-		font-size: 2.1em;
+		font-size: 1.05em;
 	}
 
 	.about-text p {

@@ -1,46 +1,27 @@
 @font-face {
-	font-family: 'EuclidFlex Bold';
+	font-family: 'Nexa Bold';
 	font-style: normal;
 	font-weight: normal;
-	src: url('../fonts/EuclidFlex-Bold.woff') format('woff');
+	src: url('../fonts/Nexa-Bold.woff') format('woff');
 }
 
-
 @font-face {
-	font-family: 'EuclidFlex Regular';
+	font-family: 'Nexa Regular';
 	font-style: normal;
 	font-weight: normal;
-	src: url('../fonts/EuclidFlex-Regular.woff') format('woff');
+	src: url('../fonts/Nexa-Regular.woff') format('woff');
 }
 
-
 @font-face {
-	font-family: 'EuclidFlex Medium';
+	font-family: 'Nexa Book';
 	font-style: normal;
 	font-weight: normal;
-	src: url('../fonts/EuclidFlex-Medium.woff') format('woff');
+	src: url('../fonts/Nexa-Book.woff') format('woff');
 }
 
-
 @font-face {
-	font-family: 'EuclidFlex Light';
+	font-family: 'Nexa Light';
 	font-style: normal;
 	font-weight: normal;
-	src: url('../fonts/EuclidFlex-Light.woff') format('woff');
-}
-
-
-@font-face {
-	font-family: 'Karla Bold';
-	font-style: normal;
-	font-weight: normal;
-	src: url('../fonts/Karla-Bold.woff') format('woff');
-}
-
-
-@font-face {
-	font-family: 'Karla Regular';
-	font-style: normal;
-	font-weight: normal;
-	src: url('../fonts/Karla-Regular.woff') format('woff');
+	src: url('../fonts/Nexa-Light.woff') format('woff');
 }

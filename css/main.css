@@ -28,25 +28,31 @@ button {
 ========================*/
 
 h1 {
-  font-family: 'EuclidFlex Medium', sans-serif;
+  font-family: 'Nexa Bold', sans-serif;
   font-size: 2.1em;
 }
 
 h2 { 
-  font-family: 'Karla Regular', sans-serif;
+  font-family: 'Nexa Bold', sans-serif;
   font-size: 1.8em;
   margin-top: 2em;
 }
 
 h3 {
-  font-family: 'EuclidFlex Medium', sans-serif;
+  font-family: 'Nexa Bold', sans-serif;
   font-size: 1.5em;
+  color: #333;
+}
+
+h4 {
+  font-family: 'Nexa Bold', sans-serif;
+  font-size: 1.2em;
   color: #333;
 }
 
 p {
   font-size: 1.2em;
-  font-family: 'EuclidFlex Regular', sans-serif;
+  font-family: 'Nexa Book', sans-serif;
   line-height: 1.7;
   color: #333;
 }
@@ -59,7 +65,7 @@ ul {
 
 li {
   font-size: 1.1em;
-  font-family: 'EuclidFlex Regular', sans-serif;
+  font-family: 'Nexa Book', sans-serif;
   line-height: 1.6;
   padding-bottom: 0.2em;
   color: #333;
@@ -92,7 +98,7 @@ nav ul li {
 }
 
 nav a {
-  font-family: 'EuclidFlex Regular', sans-serif;
+  font-family: 'Nexa Book', sans-serif;
   font-weight: 400;
   font-size: 0.8em;
   letter-spacing: 0.2em;
@@ -184,7 +190,7 @@ a.button-default-full-width-header {
   letter-spacing: 0.1em;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'EuclidFlex Medium', sans-serif;
+  font-family: 'Nexa Bold', sans-serif;
   padding: 0.8em 1em;
   margin-top: 1.6em;
   font-size: 0.8em;
@@ -277,7 +283,7 @@ a.link-alternative:hover {
 
 #contact h3 {
   font-size: 1.8em;
-  font-family: 'EuclidFlex Medium', sans-serif;
+  font-family: 'Nexa Bold', sans-serif;
   font-style: normal;
   letter-spacing: 0.1em;
   margin-top: 4em;
@@ -311,7 +317,7 @@ a.link-alternative:hover {
 }
 
 .contact-info li {
-  font-family: 'EuclidFlex Regular', sans-serif;
+  font-family: 'Nexa Book', sans-serif;
   font-size: 1.1em;
   margin-top: 1em;
   padding-bottom: 0.5em;
@@ -329,7 +335,7 @@ a.link-alternative:hover {
 
 label {
   display: block;
-  font-family: 'EuclidFlex Regular', sans-serif;
+  font-family: 'Nexa Book', sans-serif;
   font-size: 0.8em;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -341,7 +347,7 @@ textarea,
 select,
 select option {
   display: block;
-  font-family: 'EuclidFlex Regular', sans-serif;
+  font-family: 'Nexa Book', sans-serif;
   font-weight: 300;
   margin-bottom: 2em;
   margin-top: 0.7em;
@@ -353,7 +359,7 @@ select option {
 }
 
 .input-text-default, .input-textarea-default {
-  font-family: 'EuclidFlex Regular', sans-serif;
+  font-family: 'Nexa Book', sans-serif;
   font-size: 1em;
   padding: 0.9em;
 }
@@ -399,7 +405,6 @@ select option {
 }
 
 .hero-banner-text h1 {
-  font-family: 'EuclidFlex Regular', sans-serif;
   font-size: 2.6em;
   letter-spacing: 0.08em;
   line-height: 1.5;
@@ -407,7 +412,6 @@ select option {
 }
 
 .hero-banner-text h2 {
-  font-family: 'EuclidFlex Light', sans-serif;
   font-size: 1.4em;
   letter-spacing: 0.08em;
   line-height: 1.7;
@@ -520,19 +524,27 @@ a.button-back-to-top:focus img {
   margin: 0 auto;
 }
 
-.about-text h3 {
-  font-size: 2.4em;
+.about-text h1 {
+  font-size: 2.1em;
   letter-spacing: 0.01em;
+  margin-top: 36px;
+  margin-bottom: 36px;
 }
 
-.about-text h4 {
-  font-family: 'EuclidFlex Medium', sans-serif;
+.about-text h2 {
   font-size: 1.5em;
   letter-spacing: 0.01em;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
   padding-top: 1.6em;
   border-top: 1px solid #ccc;
+}
+
+.about-text h3 {
+  font-size: 1.2em;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  margin-top: -0.6em;
 }
 
 .about-text p {
@@ -616,13 +628,13 @@ a.button-back-to-top:focus img {
 }
 
 .getintouch-content h2 {
-  font-family: 'EuclidFlex Medium', sans-serif;
+  font-family: 'Nexa Bold', sans-serif;
   font-size: 2.1em;
   letter-spacing: 0.05em;
 }
 
 .getintouch-content p.getintouch-email {
-  font-family: 'EuclidFlex Medium', sans-serif;
+  font-family: 'Nexa Bold', sans-serif;
   font-size: 1.3em;
   letter-spacing: 0.01em;
 }
@@ -704,7 +716,7 @@ video {
 
 /*tags*/
 span.tags {
-  font-family: 'EuclidFlex Regular', sans-serif;
+  font-family: 'Nexa Book', sans-serif;
   font-size: 1.4em;
   color: #666;
   display: block;
@@ -719,7 +731,7 @@ span.tags a {
 
 /*image captions*/
 span.caption {
-  font-family: 'EuclidFlex Regular', sans-serif;
+  font-family: 'Nexa Book', sans-serif;
   font-size: 0.94em;
   margin-top: -0.5em;
   margin-bottom: 3em;
@@ -881,7 +893,7 @@ footer {
 }
 
 footer h3 {
-  font-family: 'EuclidFlex Regular', sans-serif;
+  font-family: 'Nexa Book', sans-serif;
   font-weight: 400;
   color: #E9E9E9;
   font-size: 0.95em;
