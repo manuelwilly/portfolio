@@ -243,6 +243,7 @@ a.button-default-full-width-header:focus {
 }
 
 a.link-default {
+  font-family: 'Nexa Book', sans-serif;
   text-decoration: none;
   color: #0399bc;
   -webkit-transition: all .5s;
