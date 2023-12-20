@@ -1,27 +1,20 @@
 @font-face {
-	font-family: 'Nexa Bold';
+	font-family: 'Poppins Semibold';
 	font-style: normal;
 	font-weight: normal;
-	src: url('../fonts/Nexa-Bold.woff') format('woff');
+	src: url('../fonts/Poppins-Semibold.woff') format('woff');
 }
 
 @font-face {
-	font-family: 'Nexa Regular';
+	font-family: 'Poppins Medium';
 	font-style: normal;
 	font-weight: normal;
-	src: url('../fonts/Nexa-Regular.woff') format('woff');
+	src: url('../fonts/Poppins-Medium.woff') format('woff');
 }
 
 @font-face {
-	font-family: 'Nexa Book';
+	font-family: 'Poppins Regular';
 	font-style: normal;
 	font-weight: normal;
-	src: url('../fonts/Nexa-Book.woff') format('woff');
-}
-
-@font-face {
-	font-family: 'Nexa Light';
-	font-style: normal;
-	font-weight: normal;
-	src: url('../fonts/Nexa-Light.woff') format('woff');
+	src: url('../fonts/Poppins-Regular.woff') format('woff');
 }
