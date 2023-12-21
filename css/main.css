@@ -32,7 +32,7 @@ h1 {
   font-size: 2.1em;
 }
 
-h2 { 
+h2 {
   font-family: 'Poppins Medium', sans-serif;
   font-size: 1.8em;
   margin-top: 2em;
@@ -793,6 +793,8 @@ a.back-to-previous {
   text-transform: uppercase;
   font-style: normal;
   font-size: 1em;
+  color: #333;
+  letter-spacing: 0.05em;
   margin-bottom: 0.4em;
   padding-bottom: 0;
 }
@@ -813,6 +815,7 @@ a.back-to-previous {
 
 .section-title {
   color: #0399bc;
+  letter-spacing: 0.05em;
   border-bottom: 0.05em solid #0399bc;
   text-transform: uppercase;
   margin-top: 4.5em;
