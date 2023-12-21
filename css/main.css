@@ -28,24 +28,24 @@ button {
 ========================*/
 
 h1 {
-  font-family: 'Poppins Medium', sans-serif;
+  font-family: 'Poppins Semibold', sans-serif;
   font-size: 2.1em;
 }
 
 h2 { 
-  font-family: 'Poppins Medium', sans-serif;
+  font-family: 'Poppins Semibold', sans-serif;
   font-size: 1.8em;
   margin-top: 2em;
 }
 
 h3 {
-  font-family: 'Poppins Medium', sans-serif;
+  font-family: 'Poppins Semibold', sans-serif;
   font-size: 1.5em;
   color: #333;
 }
 
 h4 {
-  font-family: 'Poppins Medium', sans-serif;
+  font-family: 'Poppins Semibold', sans-serif;
   font-size: 1.2em;
   color: #333;
 }
@@ -190,7 +190,7 @@ a.button-default-full-width-header {
   letter-spacing: 0.1em;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Poppins Medium', sans-serif;
+  font-family: 'Poppins Semibold', sans-serif;
   padding: 0.8em 1em;
   margin-top: 1.6em;
   font-size: 0.8em;
@@ -284,7 +284,7 @@ a.link-alternative:hover {
 
 #contact h3 {
   font-size: 1.8em;
-  font-family: 'Poppins Medium', sans-serif;
+  font-family: 'Poppins Semibold', sans-serif;
   font-style: normal;
   letter-spacing: 0.1em;
   margin-top: 4em;
@@ -629,14 +629,14 @@ a.button-back-to-top:focus img {
 }
 
 .getintouch-content h2 {
-  font-family: 'Poppins Medium', sans-serif;
+  font-family: 'Poppins Semibold', sans-serif;
   font-size: 2.1em;
   line-height: 1.4;
   letter-spacing: 0.05em;
 }
 
 .getintouch-content p.getintouch-email {
-  font-family: 'Poppins Medium', sans-serif;
+  font-family: 'Poppins Semibold', sans-serif;
   font-size: 1.3em;
   letter-spacing: 0.01em;
 }
