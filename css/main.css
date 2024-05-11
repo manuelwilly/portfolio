@@ -78,7 +78,6 @@ li {
 nav {
   height: 6em;
   padding-top: 2em;
-  max-width: 1280px;
   margin: 0 auto;
   z-index: 30;
   position: relative;
@@ -922,7 +921,6 @@ footer p {
 
 footer .footer-container {
   height: auto;
-  max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -930,6 +928,8 @@ footer .footer-container {
 
 footer .container-footer-link {
   margin-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 footer .container-footer-link a {
@@ -941,6 +941,8 @@ footer .container-footer-link a {
 
 footer .container-footer-copyright {
   margin-top: 2.2em;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 /*

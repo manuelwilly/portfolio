@@ -81,8 +81,8 @@ MIN-WIDTH MEDIA QUERIES
 
 @media (min-width: 684px) {
 	nav {
-		padding-left: 1em;
-		padding-right: 1em;
+		padding-left: 2em;
+		padding-right: 2em;
 	}
 }
 
