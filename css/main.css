@@ -537,25 +537,14 @@ a.button-back-to-top:focus img {
 .about-text h2 {
   font-size: 1.5em;
   letter-spacing: 0.01em;
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
-  padding-top: 1.6em;
   border-top: 1px solid #ccc;
+  margin-top: 32px;
+  padding-top: 32px;
 }
 
-.about-text p {
-  font-size: 1.2em;
-  line-height: 1.9;
-  letter-spacing: 0.03em;
-}
-
-.about-experience {
-  margin-bottom: 2.4em;
-}
-
-.about-experience img {
-  width: 8em;
-  margin-bottom: 1.6em;
+.about-text img {
+  width: 100%;
+  margin-top: 1em;
 }
 
 .about-text p.about-paragraph,
@@ -705,8 +694,8 @@ video {
 .appvideo video {
   max-width: 320px;
   margin-bottom: 3em;
-  border-left: 1px solid #E4E4E4;
-  border-right: 1px solid #E4E4E4;
+  border-left: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
 }
 
 /*==========================
@@ -838,7 +827,7 @@ a.back-to-previous {
 }
 
 .grid-process h3.heading-border {
-  margin-top: 60px;
+  margin-top: 2.5em;
   padding-top: 15px;
   border-top: 1px solid #999;
 }
