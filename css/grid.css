@@ -269,21 +269,27 @@ MAX-WIDTH MEDIA QUERIES
 }
 
 @media (max-width: 576px) {
+	.hero-banner-profile {
+		margin-top: 1.5em;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
 	.hero-banner-text {
-		margin-top: 2em;
+		margin-top: 0.5em;
 		margin-bottom: 3.5em;
 		padding-left: 1em;
 		padding-right: 1em;
 	}
 
 	.hero-banner-text h1 {
-	  font-size: 2em;
-	  letter-spacing: 0.05em;
-	  line-height: 1.5;
+		font-size: 2em;
+		letter-spacing: 0.05em;
+		line-height: 1.5;
 	}
 
 	.hero-banner-about {
-	  height: 10em;
+		height: 10em;
 	}
 
 	/*
