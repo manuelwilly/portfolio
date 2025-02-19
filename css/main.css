@@ -378,19 +378,12 @@ select option {
 ========================*/
 
 #hero-banner {
-/*background-image: url(../img/banner.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-position: top center;*/
-
   background-image: radial-gradient(circle at top left, /* Adjust position */
-    #28C2CB,
-    #45A1D1,
-    #627FC7,
-    #7F5DBE,
-    #1A6CB9
+    #28c2cb,
+    #45a1d1,
+    #627fc7,
+    #7f5dbe,
+    #1a6cb9
   );
 
   background-size: 200% 100%;
