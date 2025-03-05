@@ -886,6 +886,26 @@ a.back-to-previous {
   border-radius: 8px;
 }
 
+.scrollable-image-outer {
+  aspect-ratio: 1.4 / 1;
+  height: var(--framer-aspect-ratio-supported, 500px);
+  overflow: auto;
+  position: relative;
+  margin-top: 1.5em;
+  width: 100%;
+}
+
+.scrollable-image-inner {
+  aspect-ratio: 2.8 / 1;
+  height: var(--framer-aspect-ratio-supported, 500px);
+}
+
+.scrollable-image-inner img {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .grid-process img.mockups {
   box-shadow: 0 6px 6px 0 rgba(0,0,0,0.12), 0 10px 20px 0 rgba(0,0,0,0.1);
 }

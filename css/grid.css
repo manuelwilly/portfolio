@@ -340,4 +340,14 @@ MAX-WIDTH MEDIA QUERIES
 		width: 100%;
 		margin-bottom: 1.2em;
 	}
+
+	.scrollable-image-outer {
+	  aspect-ratio: 1.4 / 1;
+	  height: var(--framer-aspect-ratio-supported, 250px);
+	}
+
+	.scrollable-image-inner {
+	  aspect-ratio: 2.8 / 1;
+	  height: var(--framer-aspect-ratio-supported, 250px);
+	}
 }
