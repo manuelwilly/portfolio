@@ -1014,6 +1014,7 @@ footer .container-footer-copyright {
     display: block;
     margin-right: 1.5em;
     margin-left: 2em;
+    border-radius: 4px;
   }
 
   /*home link is only visible in mobile*/
