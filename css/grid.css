@@ -31,6 +31,10 @@ section::after {
 	margin-top: -1em;
 }
 
+.wo-padding-left {
+	padding-left: 0;
+}
+
 /*used if you ever want a grid with slightly less padding*/
 .grid.less-padding [class*='col-'] {
 	padding-left: 1em;
@@ -226,7 +230,8 @@ MAX-WIDTH MEDIA QUERIES
 	.col-title,
 	.col-sidebar,
 	.col-main,
-	.grid-process {
+	.grid-process,
+	.wo-padding-left {
 		padding-left: 0;
 		padding-right: 0;
 	}

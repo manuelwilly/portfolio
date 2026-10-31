@@ -50,6 +50,7 @@
         <section class="col-title">
           <img alt="Sunday logo" src="img/sunday/logo-sunday.png">
           <h1>Optimizing claim processing experience</h1>
+          <h4>Shipped and in use since early January 2025, reducing claim processing time from 10 to 3 minutes, and increasing daily throughput from 350 to 875 claims</h4>
         </section>
 
         <section class="col-sidebar col-3of12">
@@ -94,29 +95,15 @@
       <div class="container-centered-process">
         <section class="grid-process">
           <h3>Problem statement</h3>
-          <p>Sunday's existing claims management system relies on inefficient manual processes, such as spreadsheets and documents. This has led to slow claim processing times, negatively impacting operational efficiency and customer satisfaction.</p>
+          <p>Sunday's claims team assessed incoming claims, tracked their status, and assigned work across spreadsheets and separate documents. Limited visibility made it difficult to monitor claim progress and identify bottlenecks, while manual data entry and document transfers increased the risk of errors. Together, these challenges slowed down claim processing, negatively impacting operational efficiency and customer satisfaction.</p>
 
           <h3 class="heading-border">Platform users</h3>
           <p>We identified 3 distinct user roles: Claim Admins, Claim Assessors, and Claim Manager. Each role has its own duties and different levels of access to features on the platform.</p>
           <img alt="Claim middleware users" src="img/sunday/cm-users.jpg">
 
-          <h3 class="heading-border">Key pain points</h3>
-          <p>At the beginning of the project, we held discussions with the claims team and the Development Director to plan how to improve the existing claims process for greater efficiency. Through focus group discussions with the team, we identified key pain points in the current process.</p>
-
-          <h4>Key pain points of the existing manual claim process:</h4>
-          <ul>
-            <li>Lack of transparency and visibility makes it difficult to monitor claim statuses and identify potential bottlenecks</li>
-            <li>Low claim processing rates stem from inefficiencies that hinder the team's ability to process claims quickly and accurately</li>
-            <li>Long claim processing times result from manual data entry and document transfers</li>
-            <li>Increased risks of errors from manual processes lead to inaccuracies and delays in claim settlements</li>
-          </ul>
-
           <h3 class="heading-border">Understanding competitive landscape</h3>
-          <p>We conducted a competitive analysis of leading claims management platforms to identify their strengths, weaknesses, and opportunities for innovation. This benchmarking informed our design decisions and helped us identify established design patterns, interaction models, and features that are recognized as industry best practices.</p>
+          <p>We conducted a competitive analysis of leading claims management platforms to identify their strengths, weaknesses, and opportunities for innovation.</p>
           <img alt="Claim middleware competitive analysis" src="img/sunday/cm-competitive-analysis.jpg">
-
-          <h3 class="heading-border">Defining the goal</h3>
-          <p>Our goal was to develop an MVP version of a claims management platform for Sunday Insurance, namely Claim Middleware. This platform will streamline the entire claims lifecycle by enabling the Sunday claims team to seamlessly assess incoming claims, track claim processing status, and delegate claim assignments.</p>
         </section>
       </div>
 
@@ -128,44 +115,61 @@
 
       <div class="container-centered-process">
         <section class="grid-process">
-          <p>My task was to design the end-to-end claim processing workflows from pre-assessment, assessment, to assessment results from scratch. I also facilitated the team's understanding of these complex workflows by creating detailed, annotated flowcharts to map out the user journey.</p>
+          <img alt="Claim middleware new user interface overview" src="img/sunday/cm-mockups.jpg">
+          <span class="caption">Claim Middleware new user interface overview</span>
 
+          <h3 class="heading-border">A list the team works in</h3>
+          <p>After conducting competitive analysis and mapping out the overall user journey, I wireframed the claim list and claim details with the existing design systems and UI components, so the new screens would stay consistent with the brand and be easier to update.</p>
+          <div class="col-6of12 wo-padding-left">
+            <h4 class="heading-text">Kept</h4>
+            <p>A claim list with sort and filter on each column, for both optical and non-optical claims. Claim type 1 is processed by Sunday’s claims team on this list. Claim type 2 is passed to AdMedika, a third-party administrator and digital healthcare provider in Indonesia.</p>
+          </div>
+          <div class="col-6of12 wo-padding">
+            <h4 class="heading-text">Dropped</h4>
+            <p>AdMedika’s screens as the place the Sunday team processes a type 1 claim.</p>
+          </div>
+          <img alt="Claim middleware claim list page" src="img/sunday/cm-claim-list.jpg">
+          <span class="caption">Claim list page, from where the claims team can view the list of submitted claims, add new claims, and adjust claim settings</span>
+
+          <h3 class="heading-border">Three jobs, not a suite</h3>
+          <p>My task was to design the end-to-end claim processing workflows from pre-assessment, assessment, to assessment results from scratch. I also facilitated the team's understanding of these complex workflows by creating detailed, annotated flowcharts to map out the user journey.</p>
           <div class="scrollable-image-outer">
             <div class="scrollable-image-inner">
               <img alt="Claim middleware flowchart" src="img/sunday/cm-flowchart.jpg">
             </div>
           </div>
+          <div class="col-6of12 wo-padding-left">
+            <h4 class="heading-text">Kept</h4>
+            <p>Admin pre-assesses. Assessor assesses after that. Manager assigns clients and sets leave access.</p>
+          </div>
+          <div class="col-6of12 wo-padding">
+            <h4 class="heading-text">Dropped</h4>
+            <p>Guidewire’s analytics layer and one role finishing the whole claim.</p>
+          </div>
+          <img alt="Claim middleware claim delegation page" src="img/sunday/cm-claim-delegation.jpg">
+          <span class="caption">Claim delegation, which was one of the most requested features during the pilot phase</span>
 
-          <h3 class="heading-border">Ideating through wireframes</h3>
-          <p>After successfully mapping out the overall user journey, I pivoted to the wireframing phase for key pages such as the claim list and claim details. Utilizing existing design systems and UI components, my objective was to create a scalable and cohesive design architecture. By doing so, I aimed to ensure brand consistency and facilitate easier design updates in the future.</p>
-          <img alt="Claim middleware wireframes" src="img/sunday/cm-wireframes.jpg">
-
-          <h4>Proposed features:</h4>
-          <ul>
-            <li>Claim list with sort and filter capabilities for each column header</li>
-            <li>Comprehensive claim details information for non-optical and optical claims</li>
-            <li>Claim Admins can conduct a pre-assessment process immediately after claims are submitted by clients</li>
-            <li>Claim Assessors can conduct an assessment process after claims are reviewed by Claim Admins</li>
-            <li>Claim Manager can assign Claim Admins and Claim Assessors to handle specific clients</li>
-            <li>Claim Manager can disable access and set active date for Claim Admins and Claim Assessors for leave situations</li>
-            <li>Creating new claim manually to accommodate claims submitted via email or WhatsApp messages</li>
-            <li>Email notifications to track claim status for claims team and clients</li>
-          </ul>
-
-          <img alt="Claim middleware new user interface overview" src="img/sunday/cm-mockups.jpg">
-          <span class="caption">Claim Middleware new user interface overview</span>
-          
-          <img alt="Claim middleware claim list page" src="img/sunday/cm-claim-list.jpg">
-          <span class="caption">Claim list page, from where the claims team can view the list of submitted claims, add new claims, and adjust claim settings</span>
-
+          <h3 class="heading-border">The assessor decides on one screen</h3>
+          <div class="col-6of12 wo-padding-left">
+            <h4 class="heading-text">Kept</h4>
+            <p>After pre-assessment, the assessor works on one page. They mark each document as matching or not, see the benefit lines and the limit, and enter the approved amount and the rejected amount. They then choose reject (Tolak klaim), pending (Pending klaim), or approve (Setujui klaim). The pre-assessment note stays on the page.</p>
+          </div>
+          <div class="col-6of12 wo-padding">
+            <h4 class="heading-text">Dropped</h4>
+            <p>A recommended amount and finishing the assessment inside AdMedika. The assessor types both amounts. Type 2 claims are still handed to AdMedika. The decision is made on this screen.</p>
+          </div>
           <img alt="Claim middleware claim assessment page" src="img/sunday/cm-claim-assessment.jpg">
           <span class="caption">Claim assessment page, which allows Claim Assessors to review claim information, assess claim amount, and decide claim status</span>
 
-          <img alt="Claim middleware client configuration page" src="img/sunday/cm-client-config.jpg">
-          <span class="caption">Client configuration, from where clients can be categorized as type 1 (can be processed directly) or 2 (need AdMedika review)</span>
-
-          <img alt="Claim middleware claim delegation page" src="img/sunday/cm-claim-delegation.jpg">
-          <span class="caption">Claim delegation, which was one of the most requested features during the pilot phase</span>
+          <h3 class="heading-border">One front door for messy claims</h3>
+          <div class="col-6of12 wo-padding-left">
+            <h4 class="heading-text">Kept</h4>
+            <p>Manual create for email and WhatsApp. A short status email to the team and the client.</p>
+          </div>
+          <div class="col-6of12 wo-padding">
+            <h4 class="heading-text">Dropped</h4>
+            <p>Jolly, Sunday's employee benefit app, as the only way in and treating the status email as a feature of its own.</p>
+          </div>
         </section>
       </div>
 

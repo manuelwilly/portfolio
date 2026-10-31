@@ -763,7 +763,6 @@ span.caption {
   font-family: 'Poppins Regular', sans-serif;
   font-size: 0.94em;
   margin-top: -0.5em;
-  margin-bottom: 3em;
   text-align: center;
   display: block;
   color: #999;
@@ -870,6 +869,10 @@ a.back-to-previous {
   margin-top: 2.5em;
   padding-top: 15px;
   border-top: 1px solid #999;
+}
+
+.grid-process h4.heading-text {
+  margin-bottom: 0;
 }
 
 .grid-process h4.mockups-text {
